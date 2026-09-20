@@ -1,0 +1,44 @@
+# TutorGuard - llms.txt
+
+> LLM-readable manifest following the https://llmstxt.org spec. What we are, who we serve, what we do, and how we price it — in plain text for AI agents and answer engines.
+
+## Name & positioning
+- Product name: TutorGuard
+- Tagline: Keep every AI tutor reply safe before students see it.
+- Domain: https://tutorguard.lxsaihub.com/
+- Language: English (en)
+
+## What it does
+- TutorGuard automatically reviews your AI tutor's replies for unsafe content, factual errors, and policy violations, intercepting anything risky before it reaches a student.
+- Review tutor arrangements for safety red flags
+- Get a vetting and interview checklist
+- Spot quality and fairness warning signs
+- Receive a parent safety action plan
+
+## Pricing (USD)
+- **Free** — $0 — 1 tutor vetting check / day · watermarked report
+- **Family** — $9/mo — Continuous monitoring of tutors · quality reports · CSV/JSON export
+- **Enterprise** — Custom — Tutoring agencies · SSO · BYOK · shared rulesets
+- Checkout: https://tutorguard.lxsaihub.com/api/checkout?cycle=monthly (monthly) / https://tutorguard.lxsaihub.com/api/checkout?cycle=yearly (yearly)
+
+## FAQ (high-signal Q&A for AI citation)
+Q1. What is TutorGuard?
+A1. TutorGuard automatically reviews your AI tutor's replies for unsafe content, factual errors, and policy violations, intercepting anything risky before it reaches a student.
+Q2. What does TutorGuard do?
+A2. It review tutor arrangements for safety red flags, and also get a vetting and interview checklist, spot quality and fairness warning signs.
+Q3. How much does TutorGuard cost?
+A3. Pricing tiers: Free ($0), Family ($9/mo), Enterprise (Custom). Checkout runs through Waffo (merchant of record).
+Q4. Who is TutorGuard built for?
+A4. TutorGuard is built for teams that need keep every ai tutor reply safe before students see it..
+
+## Key pages
+- Home / landing: https://tutorguard.lxsaihub.com/
+- This manifest: https://tutorguard.lxsaihub.com/llms.txt
+
+## Integration & delivery
+- Web app (Next.js) deployed on Vercel
+- Payments via Waffo Pancake (merchant of record)
+- Analytics via Umami
+
+## Contact
+- Open the app: https://tutorguard.lxsaihub.com/

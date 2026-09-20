@@ -1,0 +1,103 @@
+{
+  "version": "uk-aadc@2026-07-24",
+  "standard": "UK Age Appropriate Design Code (Children's code) — 15 standards, ICO",
+  "source": "ICO Age Appropriate Design Code (curated minor-protection corpus)",
+  "entries": [
+    {
+      "id": "ukaadc-best-interests",
+      "title": "Standard 1 — best interests of the child",
+      "body": "The best interests of the child should be a primary consideration when designing and developing online services likely to be accessed by children. For an AI tutor, safeguarding and wellbeing must outweigh engagement or commercial optimization.",
+      "ref": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+      "tags": ["uk-aadc", "best-interests", "standard-1", "child", "ai-tutor"],
+      "verify": true
+    },
+    {
+      "id": "ukaadc-age-appropriateness",
+      "title": "Standard 2 — age-appropriate application",
+      "body": "Operators must assess whether their service is likely to be accessed by children, and apply the Code's protections accordingly, even if not targeted at children. AI tutors should assume a meaningful minor audience and design for it.",
+      "ref": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+      "tags": ["uk-aadc", "age-appropriate", "standard-2", "likely-accessed", "assessment"],
+      "verify": true
+    },
+    {
+      "id": "ukaadc-high-privacy-default",
+      "title": "Standard 3 — high privacy by default",
+      "body": "Data protection settings must be set to high privacy by default (unless there is a compelling reason not to). Minors using an AI tutor should get maximum privacy without having to opt in.",
+      "ref": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+      "tags": ["uk-aadc", "high-privacy", "default", "standard-3", "settings"],
+      "verify": true
+    },
+    {
+      "id": "ukaadc-settings-geolocation",
+      "title": "Standards 4-5 — settings & geolocation off by default",
+      "body": "Location services should be switched off by default, with an obvious sign when active. AI tutors should not track or display minor geolocation unless strictly necessary and consented.",
+      "ref": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+      "tags": ["uk-aadc", "geolocation", "off-by-default", "standard-4", "standard-5"],
+      "verify": true
+    },
+    {
+      "id": "ukaadc-data-minimization",
+      "title": "Standard 6 — collect only minimum data",
+      "body": "Only the minimum amount of personal data needed to provide the service should be collected and retained. AI tutors should avoid hoovering chat history, voice, or diagnostics beyond what the learning task requires.",
+      "ref": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+      "tags": ["uk-aadc", "data-minimization", "standard-6", "retention", "ai-tutor"],
+      "verify": true
+    },
+    {
+      "id": "ukaadc-no-nudge",
+      "title": "Standard 7 — no nudging to weaken privacy",
+      "body": "Operators must not use nudge techniques to encourage children to provide unnecessary personal data or weaken/disable privacy settings. AI tutors must not gamify data sharing.",
+      "ref": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+      "tags": ["uk-aadc", "nudge", "standard-7", "privacy", "dark-patterns"],
+      "verify": true
+    },
+    {
+      "id": "ukaadc-parental-tools",
+      "title": "Standard 8 — tools for children to exercise rights",
+      "body": "Provide prominent and accessible tools for children to exercise their data-protection rights and report concerns. AI tutors should surface easy report/block/delete controls for minors.",
+      "ref": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+      "tags": ["uk-aadc", "rights", "report", "standard-8", "tools"],
+      "verify": true
+    },
+    {
+      "id": "ukaadc-transparency",
+      "title": "Standard 9 — clear, age-appropriate transparency",
+      "body": "Privacy information, terms, and policies must be concise, prominent, and in age-appropriate language. AI tutor explanations of data use should be understandable to the child's age group.",
+      "ref": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+      "tags": ["uk-aadc", "transparency", "standard-9", "age-appropriate", "language"],
+      "verify": true
+    },
+    {
+      "id": "ukaadc-profiling-off",
+      "title": "Standards 10-11 — profiling off by default",
+      "body": "Profiling of children for content/ad delivery must be switched off by default (or for all users if age is not established). AI tutors must not profile minors for commercial recommendation without strong safeguards.",
+      "ref": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+      "tags": ["uk-aadc", "profiling", "off-by-default", "standard-10", "standard-11"],
+      "verify": true
+    },
+    {
+      "id": "ukaadc-dpia",
+      "title": "Standard 12 — DPIA for child-likely services",
+      "body": "Operators should complete a DPIA to assess and mitigate risks to children who are likely to access the service. An AI tutor's DPIA should cover algorithmic suggestions, data retention, and safeguarding escalations.",
+      "ref": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+      "tags": ["uk-aadc", "dpia", "standard-12", "risk", "ai-tutor"],
+      "verify": true
+    },
+    {
+      "id": "ukaadc-connected-toys",
+      "title": "Standards 14-15 — connected toys & education products",
+      "body": "The Code applies to connected toys and online products likely accessed by children, including educational websites and devices. AI tutoring hardware/software in the UK is in scope.",
+      "ref": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+      "tags": ["uk-aadc", "connected-toys", "education", "standard-14", "standard-15"],
+      "verify": true
+    },
+    {
+      "id": "ukaadc-enforcement",
+      "title": "Statutory code; ICO enforcement",
+      "body": "The Age Appropriate Design Code is a statutory code under s.123 DPA 2018. Failure to conform is evidence of GDPR non-compliance and can trigger ICO regulatory action. It is a public reference point, not a promise of any specific exposure.",
+      "ref": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+      "tags": ["uk-aadc", "statutory", "ico", "enforcement", "dpa-2018"],
+      "verify": true
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "version": "gdpr-children@2026-07-24",
+  "standard": "GDPR Article 8 — Conditions applicable to child's consent (Regulation (EU) 2016/679)",
+  "source": "GDPR Article 8 (curated minor-protection corpus)",
+  "entries": [
+    {
+      "id": "gdpr-art8-age",
+      "title": "Age threshold for child's own consent",
+      "body": "Where processing is based on consent and offered directly to a child, the processing of a child's personal data is lawful where the child is at least 16. Below 16, it is lawful only if consent is given or authorized by the holder of parental responsibility. Member States may lower the threshold to not below 13.",
+      "ref": "https://gdpr-info.eu/art-8-gdpr/",
+      "tags": ["gdpr", "art8", "age", "consent", "parental"],
+      "verify": true
+    },
+    {
+      "id": "gdpr-art8-verify",
+      "title": "Duty to verify parental authorization",
+      "body": "The controller must make reasonable efforts to verify, in light of available technology, that consent for a child below the threshold is given or authorized by the holder of parental responsibility. Self-declaration alone may be insufficient for higher-risk AI tutoring services.",
+      "ref": "https://gdpr-info.eu/art-8-gdpr/",
+      "tags": ["gdpr", "art8", "verification", "parental", "age-assurance"],
+      "verify": true
+    },
+    {
+      "id": "gdpr-art8-scope",
+      "title": "Applies to information society services offered to children",
+      "body": "Article 8 applies specifically to 'information society services' offered directly to a child. An AI tutoring app offered to minors is squarely in scope; the controller must identify the child user's age or apply high-privacy defaults to all.",
+      "ref": "https://gdpr-info.eu/art-8-gdpr/",
+      "tags": ["gdpr", "art8", "information-society", "ai-tutor", "scope"],
+      "verify": true
+    },
+    {
+      "id": "gdpr-special-category",
+      "title": "Special-category data of minors needs extra protection",
+      "body": "Child data may reveal special categories (health, ethnicity, religion, biometric). Processing such data about minors requires an Art. 9 condition and heightened safeguards; AI tutors should avoid inferring sensitive attributes from children without a strong lawful basis.",
+      "ref": "https://gdpr-info.eu/art-9-gdpr/",
+      "tags": ["gdpr", "special-category", "minor", "health", "biometric"],
+      "verify": true
+    },
+    {
+      "id": "gdpr-dpia",
+      "title": "DPIA required for high-risk minor processing",
+      "body": "Processing that is likely to result in high risk — including systematic evaluation or profiling of children — requires a Data Protection Impact Assessment under Art. 35. An AI tutor's adaptive profiling should be covered by a DPIA.",
+      "ref": "https://gdpr-info.eu/art-35-gdpr/",
+      "tags": ["gdpr", "dpia", "high-risk", "profiling", "minor"],
+      "verify": true
+    },
+    {
+      "id": "gdpr-privacy-by-default",
+      "title": "Data protection by design and default (Art. 25)",
+      "body": "Controllers must implement data protection by design and by default, ensuring only necessary data is processed for each purpose. For minors this means high-privacy defaults, geolocation off, and minimal profiling out of the box.",
+      "ref": "https://gdpr-info.eu/art-25-gdpr/",
+      "tags": ["gdpr", "art25", "privacy-by-default", "design", "minor"],
+      "verify": true
+    },
+    {
+      "id": "gdpr-lawful-basis",
+      "title": "Lawful basis and age-appropriate consent",
+      "body": "For children, consent must be age-appropriate and the controller must make reasonable efforts to verify the consent giver. Where consent is not the basis, another Art. 6 ground must apply; relying on 'legitimate interest' against children is scrutinized heavily.",
+      "ref": "https://gdpr-info.eu/art-6-gdpr/",
+      "tags": ["gdpr", "lawful-basis", "consent", "art6", "age-appropriate"],
+      "verify": true
+    },
+    {
+      "id": "gdpr-age-verification",
+      "title": "EDPB guidance on age assurance",
+      "body": "The EDPB emphasizes risk-based age assurance: the method's certainty should match the risk to children. AI tutor operators in the EU should document their age-assurance choice and default to protecting all users when age is unknown.",
+      "ref": "https://gdpr-info.eu/art-8-gdpr/",
+      "tags": ["gdpr", "edpb", "age-verification", "risk-based", "assurance"],
+      "verify": true
+    },
+    {
+      "id": "gdpr-ai-tutor-eu",
+      "title": "EU AI tutors serving under-16s",
+      "body": "An AI tutor offered in the EU to users under 16 must obtain parental authorization for consent-based processing, apply high-privacy defaults, and run a DPIA. Below the Member-State threshold (13-16) parental sign-off is mandatory.",
+      "ref": "https://gdpr-info.eu/art-8-gdpr/",
+      "tags": ["gdpr", "ai-tutor", "eu", "under-16", "parental"],
+      "verify": true
+    },
+    {
+      "id": "gdpr-fines",
+      "title": "Administrative fines up to €20M / 4% turnover",
+      "body": "Infringements of the GDPR, including Art. 8 child-consent failures, can incur administrative fines up to €20 million or 4% of total worldwide annual turnover, whichever is higher (Art. 83). This is a public reference point, not a promise of any specific exposure.",
+      "ref": "https://gdpr-info.eu/art-83-gdpr/",
+      "tags": ["gdpr", "fines", "art83", "enforcement", "exposure"],
+      "verify": true
+    }
+  ]
+}

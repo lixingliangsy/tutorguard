@@ -1,0 +1,87 @@
+{
+  "version": "frameworks@2026-07-24",
+  "standard": "Crosswalk — COPPA / FERPA / GDPR Art.8 / SOPIPA / UK AADC for educational AI",
+  "source": "Curated mapping of minor-protection frameworks (deep-data moat)",
+  "entries": [
+    {
+      "id": "fw-coppa-ferpa",
+      "title": "COPPA vs FERPA division of labor",
+      "body": "COPPA protects children under 13 as consumers and requires verifiable parental consent; FERPA protects education records held by schools and lets schools authorize ed-tech collection. An AI tutor used in school relies on FERPA school-official contracts; a direct-to-consumer tutor for under-13s relies on COPPA parental consent.",
+      "ref": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "tags": ["crosswalk", "coppa", "ferpa", "consent", "school"],
+      "verify": true
+    },
+    {
+      "id": "fw-gdpr-uk",
+      "title": "GDPR Art.8 and UK AADC alignment",
+      "body": "The UK sets the digital-consent age at 13 and the AADC adds 15 design standards; the EU sets it at 16 (MS may lower to 13). Both require high-privacy defaults and DPIAs for child-likely services. An AI tutor in the UK/EU should default to protecting all users when age is unknown.",
+      "ref": "https://gdpr-info.eu/art-8-gdpr/",
+      "tags": ["crosswalk", "gdpr", "uk-aadc", "age", "consent"],
+      "verify": true
+    },
+    {
+      "id": "fw-sopipa-gdpr",
+      "title": "SOPIPA (CA) and GDPR limit student profiling",
+      "body": "Both SOPIPA and GDPR restrict building profiles of minors absent a permitted basis; SOPIPA binds vendors directly and bans targeted ads, while GDPR requires lawful basis and verification. AI tutors should treat 'no commercial profiling of minors' as a shared floor.",
+      "ref": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201320140SB1177",
+      "tags": ["crosswalk", "sopipa", "gdpr", "profiling", "vendor"],
+      "verify": true
+    },
+    {
+      "id": "fw-consent-matrix",
+      "title": "AI tutor minor-consent matrix",
+      "body": "Under-13 (US): COPPA verifiable parental consent or school authorization. EU under-16: GDPR Art.8 parental authorization. UK under-13: AADC + UK GDPR parental consent. Above thresholds, the minor may consent but age assurance still applies. Always default to high privacy when uncertain.",
+      "ref": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "tags": ["crosswalk", "consent-matrix", "age", "ai-tutor", "jurisdiction"],
+      "verify": true
+    },
+    {
+      "id": "fw-age-assurance",
+      "title": "Risk-based age assurance",
+      "body": "Age assurance methods range from self-declaration (low risk) to verified identity (high risk). The chosen certainty should match the risk to children. For AI tutors processing sensitive minor data, self-declaration alone is weak; pair with high-privacy defaults for all users.",
+      "ref": "https://gdpr-info.eu/art-8-gdpr/",
+      "tags": ["crosswalk", "age-assurance", "risk-based", "self-declaration", "verification"],
+      "verify": true
+    },
+    {
+      "id": "fw-data-minimization",
+      "title": "Shared minimum-necessary principle",
+      "body": "COPPA, FERPA, GDPR, SOPIPA, and the AADC all converge on data minimization and purpose limitation. Collect only what the learning task needs, retain no longer than necessary, and avoid training general models on minor data without a permitted basis.",
+      "ref": "https://studentprivacy.ed.gov/",
+      "tags": ["crosswalk", "data-minimization", "purpose-limitation", "retention", "shared"],
+      "verify": true
+    },
+    {
+      "id": "fw-human-oversight",
+      "title": "Human-in-the-loop for safeguarding decisions",
+      "body": "No AI tutor output about a minor's safety, mental health, or disclosure of abuse should be treated as a final ruling. Route safeguarding signals to a responsible adult (parent/educator) and keep a human review path. This is decision-support, not autonomous safeguarding authority.",
+      "ref": "https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/childrens-information/childrens-code-guidance-and-resources/age-appropriate-design-a-code-of-practice-for-online-services/",
+      "tags": ["crosswalk", "safeguarding", "human-oversight", "ai-tutor", "escalation"],
+      "verify": true
+    },
+    {
+      "id": "fw-redline-no-guarantee",
+      "title": "Red line — no 'child-safe' or 'compliant' guarantees",
+      "body": "The agent is decision-support, not a safeguarding authority or legal certifier. It must never state or imply that a product is 'guaranteed safe for children' or 'fully compliant'. Cite the applicable provision and flag open uncertainties for qualified counsel.",
+      "ref": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "tags": ["crosswalk", "redline", "no-guarantee", "decision-support", "guardrail"],
+      "verify": true
+    },
+    {
+      "id": "fw-strictest-applicable",
+      "title": "Apply the strictest applicable framework",
+      "body": "For cross-border or multi-jurisdiction AI tutor deployments, apply the strictest applicable obligation (e.g., GDPR Art.8 parental authorization when serving EU minors; SOPIPA vendor duties in California). Document the chosen baseline and the rationale.",
+      "ref": "https://gdpr-info.eu/art-8-gdpr/",
+      "tags": ["crosswalk", "strictest", "jurisdiction", "cross-border", "baseline"],
+      "verify": true
+    },
+    {
+      "id": "fw-audit-trail",
+      "title": "Maintain a compliance audit trail",
+      "body": "Keep records of consent/school-authorization relied upon, DPIAs, data-minimization decisions, and any safeguarding escalations. The audit trail is what lets a school or vendor demonstrate conformance to FERPA, COPPA, SOPIPA, GDPR, and the AADC.",
+      "ref": "https://studentprivacy.ed.gov/",
+      "tags": ["crosswalk", "audit", "record-keeping", "dpia", "governance"],
+      "verify": true
+    }
+  ]
+}

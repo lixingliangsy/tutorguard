@@ -1,0 +1,87 @@
+{
+  "version": "ferpa@2026-07-24",
+  "standard": "Family Educational Rights and Privacy Act (FERPA) — 20 U.S.C. 1232g; 34 CFR Part 99",
+  "source": "U.S. Department of Education Student Privacy Policy Office (curated minor-protection corpus)",
+  "entries": [
+    {
+      "id": "ferpa-rights",
+      "title": "Parental rights over education records",
+      "body": "FERPA gives parents the right to inspect and review their child's education records, request amendment, and control disclosure of personally identifiable information (PII). Rights transfer to the student at age 18 or upon enrollment in a postsecondary institution.",
+      "ref": "https://studentprivacy.ed.gov/",
+      "tags": ["ferpa", "rights", "education-records", "parental"],
+      "verify": true
+    },
+    {
+      "id": "ferpa-consent-disclosure",
+      "title": "Written consent generally required to disclose PII",
+      "body": "Schools must generally obtain written parental consent before disclosing PII from education records, subject to specific exceptions. AI tutors ingesting student work should treat that work as potentially an education record.",
+      "ref": "https://studentprivacy.ed.gov/",
+      "tags": ["ferpa", "consent", "disclosure", "pii"],
+      "verify": true
+    },
+    {
+      "id": "ferpa-school-official",
+      "title": "School-official / service-provider exception",
+      "body": "FERPA permits disclosure to school officials with a legitimate educational interest and to third-party service providers under contract, provided the contract limits use of PII to the contracted service. This is the main lawful path for ed-tech vendors working with schools.",
+      "ref": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html",
+      "tags": ["ferpa", "school-official", "service-provider", "contract", "edtech"],
+      "verify": true
+    },
+    {
+      "id": "ferpa-ai-tutor",
+      "title": "AI tutors and education-record status",
+      "body": "Student essays, assessments, and chat logs created through an AI tutor may constitute education records when maintained by a school. Vendor contracts must define data ownership, permitted use, and deletion so the school retains FERPA control.",
+      "ref": "https://studentprivacy.ed.gov/",
+      "tags": ["ferpa", "ai-tutor", "education-record", "contract", "ownership"],
+      "verify": true
+    },
+    {
+      "id": "ferpa-deidentification",
+      "title": "De-identified data and re-identification risk",
+      "body": "FERPA exempts de-identified data, but AI models trained on student data create re-identification and inference risk. Vendors should avoid using education records to train general models without explicit, permitted basis.",
+      "ref": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html",
+      "tags": ["ferpa", "de-identification", "re-identification", "training", "ai"],
+      "verify": true
+    },
+    {
+      "id": "ferpa-ppra",
+      "title": "PPRA — parental consent for sensitive surveys",
+      "body": "The Protection of Pupil Rights Amendment (PPRA) requires parental consent before minor students are required to participate in surveys revealing certain personal information (e.g., mental/psychological, political, religious). Relevant when AI tutors profile student wellbeing or attitudes.",
+      "ref": "https://studentprivacy.ed.gov/",
+      "tags": ["ferpa", "ppra", "consent", "survey", "sensitive"],
+      "verify": true
+    },
+    {
+      "id": "ferpa-enforcement",
+      "title": "ED enforcement; withholding of federal funds",
+      "body": "FERPA is administered and enforced by the Department of Education's Student Privacy Policy Office. Noncompliance can result in the withholding of federal funds and cancellation of agreements. Recent ED findings have addressed schools' disclosure of student information to parents.",
+      "ref": "https://studentprivacy.ed.gov/",
+      "tags": ["ferpa", "enforcement", "ed", "federal-funds"],
+      "verify": true
+    },
+    {
+      "id": "ferpa-2025-guidance",
+      "title": "2025 Dear Colleague guidance on parental rights",
+      "body": "In 2025 the ED Student Privacy Policy Office issued guidance directing schools to comply with parental-rights obligations under FERPA and PPRA, reinforcing that schools — not vendors — hold the disclosure-control duty. AI tutor deployments should document this allocation.",
+      "ref": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html",
+      "tags": ["ferpa", "2025", "guidance", "parental-rights", "ppra"],
+      "verify": true
+    },
+    {
+      "id": "ferpa-data-breach",
+      "title": "Breach and safeguarding incident handling",
+      "body": "Unauthorized disclosure of education records triggers FERPA concerns and may require notification. AI tutor vendors should have an incident-response path that notifies the school promptly so the school can meet its FERPA obligations.",
+      "ref": "https://studentprivacy.ed.gov/",
+      "tags": ["ferpa", "breach", "incident", "notification", "safeguarding"],
+      "verify": true
+    },
+    {
+      "id": "ferpa-record-keeping",
+      "title": "Document the legal basis for each disclosure",
+      "body": "Schools and vendors should keep an audit trail of consents, school-authorization reliance, and permitted-use contracts. For an AI tutor, log what minor data is collected, the basis (parental vs school), and retention/deletion actions.",
+      "ref": "https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html",
+      "tags": ["ferpa", "audit", "consent", "record-keeping", "governance"],
+      "verify": true
+    }
+  ]
+}

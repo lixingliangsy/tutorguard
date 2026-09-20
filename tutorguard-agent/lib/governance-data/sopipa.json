@@ -1,0 +1,87 @@
+{
+  "version": "sopipa@2026-07-24",
+  "standard": "Student Online Personal Information Protection Act (SOPIPA) — CA Bus. & Prof. Code §22584.1 et seq.",
+  "source": "California legislative text + CDE (curated minor-protection corpus)",
+  "entries": [
+    {
+      "id": "sopipa-scope",
+      "title": "Applies to K-12 school-purpose operators",
+      "body": "SOPIPA applies to operators of websites, online services, and apps that are designed, marketed, and primarily used for K-12 school purposes. It binds vendors directly — not just schools — and reaches any operator handling covered information from California students.",
+      "ref": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201320140SB1177",
+      "tags": ["sopipa", "scope", "k12", "operator", "california"],
+      "verify": true
+    },
+    {
+      "id": "sopipa-no-sale",
+      "title": "No sale of student data",
+      "body": "Operators may not sell covered information, except in connection with a merger/acquisition where the acquirer remains bound by SOPIPA. AI tutor vendors must not monetize student data through resale.",
+      "ref": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201320140SB1177",
+      "tags": ["sopipa", "no-sale", "covered-information", "monetization"],
+      "verify": true
+    },
+    {
+      "id": "sopipa-no-targeted-ad",
+      "title": "No targeted advertising to students",
+      "body": "Operators may not use covered information to engage in targeted advertising to students, nor use persistent identifiers from the service to target ads elsewhere. An AI tutor must not profile minors for ad delivery.",
+      "ref": "https://www.cde.ca.gov/pd/ca/lit/sopipa.asp",
+      "tags": ["sopipa", "targeted-advertising", "profiling", "covered-information"],
+      "verify": true
+    },
+    {
+      "id": "sopipa-no-profile",
+      "title": "No building student profiles except for school purposes",
+      "body": "Operators may not use covered information to amass a profile of a student except in furtherance of K-12 school purposes. Adaptive-learning personalization is allowed; commercial profiling is not.",
+      "ref": "https://www.cde.ca.gov/pd/ca/lit/sopipa.asp",
+      "tags": ["sopipa", "profiling", "adaptive-learning", "school-purposes"],
+      "verify": true
+    },
+    {
+      "id": "sopipa-security",
+      "title": "Reasonable security and deletion on request",
+      "body": "Operators must implement reasonable security procedures and practices, and delete student information upon school/district request. AI tutor vendors should support verifiable deletion of minor data.",
+      "ref": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201320140SB1177",
+      "tags": ["sopipa", "security", "deletion", "request"],
+      "verify": true
+    },
+    {
+      "id": "sopipa-covered-info",
+      "title": "Covered information — 29 categories",
+      "body": "Covered information includes name, address, email, grades, test results, disciplinary records, biometrics, geolocation, search activity, photos, voice recordings, socioeconomic and disability data, and more. AI tutor logs readily capture many of these.",
+      "ref": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201320140SB1177",
+      "tags": ["sopipa", "covered-information", "biometric", "geolocation", "voice"],
+      "verify": true
+    },
+    {
+      "id": "sopipa-school-consent",
+      "title": "School authorization enables collection",
+      "body": "A school or district may authorize an operator to collect student data for K-12 purposes under contract that limits use. The contract must prohibit further disclosure and require security. This is SOPIPA's functional equivalent of COPPA school authorization.",
+      "ref": "https://www.cde.ca.gov/pd/ca/lit/sopipa.asp",
+      "tags": ["sopipa", "school", "contract", "authorization", "edtech"],
+      "verify": true
+    },
+    {
+      "id": "sopipa-ai-tutor",
+      "title": "AI tutoring apps as SOPIPA operators",
+      "body": "An AI tutoring app used for K-12 homework help is a 'K-12 school purpose' operator. It may personalize learning but must not sell data, target ads, or build commercial profiles of students — core constraints for any minor-facing AI product.",
+      "ref": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201320140SB1177",
+      "tags": ["sopipa", "ai-tutor", "operator", "profiling", "advertising"],
+      "verify": true
+    },
+    {
+      "id": "sopipa-general-audience-exempt",
+      "title": "General-audience services are exempt",
+      "body": "SOPIPA does not apply to general-audience services even if accessed with school-issued credentials. A general-purpose chatbot used by a student falls outside SOPIPA, which is why age gating and purpose design matter.",
+      "ref": "https://www.cde.ca.gov/pd/ca/lit/sopipa.asp",
+      "tags": ["sopipa", "general-audience", "exemption", "age-gating"],
+      "verify": true
+    },
+    {
+      "id": "sopipa-enforcement",
+      "title": "Enforced by the California Attorney General",
+      "body": "SOPIPA is enforced by the California Attorney General. It complements COPPA and FERPA by imposing direct duties on ed-tech vendors; violations expose operators to state enforcement rather than only federal agency action.",
+      "ref": "https://leginfo.legislature.ca.gov/faces/billTextClient.xhtml?bill_id=201320140SB1177",
+      "tags": ["sopipa", "enforcement", "california-ag", "vendor-duty"],
+      "verify": true
+    }
+  ]
+}

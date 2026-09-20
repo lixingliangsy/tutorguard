@@ -1,0 +1,103 @@
+{
+  "version": "coppa@2026-07-24",
+  "standard": "Children's Online Privacy Protection Act (COPPA) — 15 U.S.C. 6501-6505; 16 CFR Part 312",
+  "source": "FTC Children's Online Privacy Protection Rule (curated minor-protection corpus)",
+  "entries": [
+    {
+      "id": "coppa-scope",
+      "title": "COPPA applicability — under-13 operators",
+      "body": "COPPA imposes requirements on operators of websites or online services directed to children under 13, and on operators with actual knowledge they are collecting personal information online from a child under 13. An 'operator' includes anyone who collects, uses, or discloses personal information from children, including AI tutoring platforms that ingest chats, voice, or work product.",
+      "ref": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "tags": ["coppa", "applicability", "under-13", "operator", "ai-tutor"],
+      "verify": true
+    },
+    {
+      "id": "coppa-verifiable-consent",
+      "title": "Verifiable parental consent required",
+      "body": "Before collecting, using, or disclosing personal information from a child under 13, operators must obtain verifiable parental consent. The FTC has approved multiple methods (e.g., credit-card backed, signed consent forms, video identity checks) and the 2025 amendments add new approved methods.",
+      "ref": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "tags": ["coppa", "consent", "parental", "verifiable", "under-13"],
+      "verify": true
+    },
+    {
+      "id": "coppa-pi-definition",
+      "title": "Personal information includes persistent identifiers, biometrics, voice",
+      "body": "Under COPPA, 'personal information' covers name, address, email, screen/online contact, persistent identifiers (cookies, device IDs), geolocation, photos, voice recordings, and biometric identifiers. AI tutors that transcribe or analyze a child's voice or typing patterns must treat those as personal information.",
+      "ref": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "tags": ["coppa", "personal-information", "biometric", "voice", "persistent-identifier"],
+      "verify": true
+    },
+    {
+      "id": "coppa-school-authorization",
+      "title": "School authorization substitutes for parental consent (education context)",
+      "body": "Schools may authorize collection of a child's personal information for a legitimate educational purpose in lieu of parental consent. The 2025 COPPA amendments move to codify a 'school authorization' exception for ed-tech, consistent with FTC guidance that schools act in loco parentis for classroom use.",
+      "ref": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "tags": ["coppa", "school", "education", "authorization", "edtech"],
+      "verify": true
+    },
+    {
+      "id": "coppa-parental-rights",
+      "title": "Parental review, deletion, and refusal rights",
+      "body": "Parents have the right to review the personal information collected from their child, to refuse further collection or use, and to have it deleted. AI tutor products should provide a parent-facing dashboard to exercise these rights.",
+      "ref": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "tags": ["coppa", "parental", "rights", "deletion", "access"],
+      "verify": true
+    },
+    {
+      "id": "coppa-data-security",
+      "title": "Data security, retention, and deletion obligations",
+      "body": "Operators must maintain reasonable security, confidentiality, and integrity of children's personal information and retain it only as long as necessary. The 2025 amendments strengthen information-security, deletion, and retention protocols and require periodic review.",
+      "ref": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "tags": ["coppa", "security", "retention", "deletion", "2025"],
+      "verify": true
+    },
+    {
+      "id": "coppa-2025-amendments",
+      "title": "2025 COPPA Rule amendments — effective dates",
+      "body": "The FTC's 2025 final amendments to the COPPA Rule were effective June 23, 2025, with a general compliance date of April 22, 2026 (except a few provisions). They add a 'mixed-audience' definition, broaden 'personal information' (government IDs, biometrics), and update notices and consent methods. Some ed-tech/school-role amendments were deferred pending FERPA changes.",
+      "ref": "https://www.regulations.gov/document/FTC-2024-0003-0281",
+      "tags": ["coppa", "2025", "amendments", "mixed-audience", "compliance-date"],
+      "verify": true
+    },
+    {
+      "id": "coppa-edtech-deferred",
+      "title": "Ed-tech/school-role amendments deferred (enforce per existing guidance)",
+      "body": "In the 2025 final rule the FTC did NOT finalize proposed ed-tech and school-authorization amendments, to avoid conflict with pending FERPA revisions. It continues to enforce COPPA in the ed-tech context under existing guidance; AI tutor vendors should still follow the school-authorization and data-minimization posture.",
+      "ref": "https://www.regulations.gov/document/FTC-2024-0003-0281",
+      "tags": ["coppa", "edtech", "ferpa", "deferred", "guidance"],
+      "verify": true
+    },
+    {
+      "id": "coppa-mixed-audience",
+      "title": "Mixed-audience services default posture",
+      "body": "The 2025 amendments add a 'mixed audience' website/service definition to clarify audience composition. Services that are not purely child-directed but reach children should default to treating users as children absent reliable age assurance, an important posture for general-purpose AI tutors.",
+      "ref": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "tags": ["coppa", "mixed-audience", "age-assurance", "ai-tutor"],
+      "verify": true
+    },
+    {
+      "id": "coppa-ai-tutor",
+      "title": "AI tutors as COPPA operators",
+      "body": "An AI tutoring tool that collects chats, voice, drawings, or assessment data from users known or likely under 13 is a COPPA operator. It must gate collection behind verifiable parental consent (or valid school authorization) and minimize retention of minor data.",
+      "ref": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "tags": ["coppa", "ai-tutor", "operator", "under-13", "voice"],
+      "verify": true
+    },
+    {
+      "id": "coppa-safe-harbor",
+      "title": "FTC-approved COPPA Safe Harbor programs",
+      "body": "The FTC approves Safe Harbor programs under which members following the program's guidelines are deemed in compliance. Joining a safe harbor can structure an AI tutor's compliance program but does not eliminate the underlying obligations.",
+      "ref": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "tags": ["coppa", "safe-harbor", "compliance-program"],
+      "verify": true
+    },
+    {
+      "id": "coppa-enforcement",
+      "title": "FTC enforcement and civil penalties",
+      "body": "The FTC enforces COPPA and may seek civil penalties for each violation, plus injunctive relief and refunds. FTC actions have targeted ed-tech and children's apps (e.g., Edmodo, Chegg, Epic Games) for unlawful collection and disclosure of minor data.",
+      "ref": "https://www.ftc.gov/legal-library/browse/rules/childrens-online-privacy-protection-rule-coppa",
+      "tags": ["coppa", "enforcement", "ftc", "penalties", "edtech"],
+      "verify": true
+    }
+  ]
+}
